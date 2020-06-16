@@ -3,7 +3,7 @@
  */
 package com.njw.vip.vo;
 
-import java.util.List;
+import java.io.Serializable;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,15 +13,14 @@ import lombok.NoArgsConstructor;
  * @author Administrator
  *
  */
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
-public class PageObject {
+public class EasyUI implements Serializable{
 	/**
 	 * 
 	 */
-	private Integer pageCurrent;
-	private Integer pageCount;
-	private Integer pageSize;
-	private List data;
+	private static final long serialVersionUID = 8296978691790021902L;
+	private int totels;
+	private Object data;
 }
