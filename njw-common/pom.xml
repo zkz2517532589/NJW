@@ -9,4 +9,12 @@
   
   
   <artifactId>njw-common</artifactId>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.njw.vip</groupId>
+  		<artifactId>njw</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  		<type>pom</type>
+  	</dependency>
+  </dependencies>
 </project>
